@@ -203,7 +203,7 @@ nav{
 }
 
 #questions .container h1{
-    font-size: 250px;
+    font-size: 80px;
 }
 
 footer{
@@ -222,6 +222,11 @@ footer .container{
     align-items: center;
     gap: 16px;
     list-style: none;
+}
+
+.footer-links > li> a {
+    color: var(--primary);
+    text-decoration: none;
 }
 
 @media screen and (max-width: 520px) {
